@@ -1,0 +1,66 @@
+{
+  "vehicles": [
+    {
+      "id": "1",
+      "battery": 96,
+      "distanceTravelled": 0,
+      "lastChargeTime": "2024-10-02T12:58",
+      "status": "Charging",
+      "model": "hero"
+    },
+    {
+      "id": "2",
+      "battery": 97,
+      "distanceTravelled": 22,
+      "lastChargeTime": "2024-10-04T13:02",
+      "status": "In Transit",
+      "model": "hero"
+    },
+    {
+      "id": "3",
+      "battery": 10,
+      "distanceTravelled": 5,
+      "lastChargeTime": "2024-10-22T13:03",
+      "status": "Idle",
+      "model": "hero"
+    },
+    {
+      "id": "5",
+      "battery": 55,
+      "distanceTravelled": 88,
+      "lastChargeTime": "2024-10-14T13:05",
+      "status": "Charging",
+      "model": "herohonda"
+    },
+    {
+      "id": "10",
+      "model": "ammu",
+      "battery": 15,
+      "distanceTravelled": 555,
+      "lastChargeTime": "2024-10-05T15:57",
+      "status": "Charging"
+    }
+  ],
+  "chargingSchedule": [
+    {
+      "vehicleId": "EV001",
+      "scheduledTime": "2024-10-25T03:00:00Z",
+      "id": "820f"
+    },
+    {
+      "id": "5b65",
+      "vehicleId": "EV001",
+      "scheduledTime": "13:23"
+    },
+    {
+      "id": "68bd",
+      "vehicleId": "EV002",
+      "scheduledTime": "13:24"
+    },
+    {
+      "id": "c98c",
+      "vehicleId": "EV002",
+      "scheduledTime": "13:29"
+    }
+  ]
+}
